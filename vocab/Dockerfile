@@ -7,4 +7,4 @@ WORKDIR /app
 RUN python -m pip install -U pip
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
-CMD ["flask_minijax.py"]
+CMD ["flask_vocab.py"]
