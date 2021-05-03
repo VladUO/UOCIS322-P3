@@ -64,9 +64,9 @@ def index():
 #     return flask.render_template('vocab.html')
 
 
-# @app.route("/success")
-# def success():
-#     return flask.render_template('success.html')
+@app.route("/success")
+def success():
+    return flask.render_template('success.html')
 
 
 #######################
